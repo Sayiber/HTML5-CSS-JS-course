@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        p {
+            color: red;
+        }
+        .blue, div {
+            color: blue;
+        }
+        #nameTest {
+            color: orange;
+        }
+        p.big {
+            font-size: 20px;
+        }
+        article p {
+            color: rgb(87, 21, 87);
+        }
+        article > p {
+            color:blueviolet;
+        }
+        
+    </style>
+</head>
+<body>
+    <p>
+        This is the only paragraph, and it is red.
+    </p>
+    <p>
+        This is another paragraph, but is also red.
+    </p>
+    <p class = "blue">
+        This is a paragraph, but using classes it is blue. 
+    </p>
+    <p id="nameTest">
+        This is the final paragraph, but using id selectors, it orange. 
+    </p>
+    <div>
+        This is a div, but is also blue, as the selectors where grouped, and seperated by a comma. 
+    </div>
+    <p class = "big">
+        This is a paragraph, but also the class big, wich is why red by also big. 
+    </p>
+    <div class = "big">
+        This is a div, but is also class big, however it is not big. 
+    </div>
+    <article>
+        <p>
+            This is a paragraph, that is a direct child of an article.
+        </p>
+    </article>
+    <article>
+        <div><p>
+            This is a paragraph, that is not a direct child of an article.
+        </p></div>
+    </article>
+</body>
+</html>
