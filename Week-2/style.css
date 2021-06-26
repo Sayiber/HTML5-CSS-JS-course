@@ -1,3 +1,12 @@
+body {
+    font-size: 16px;
+    
+}
+* {
+    box-sizing: border-box; 
+    /*Box sizing is not inheritent, 
+    so it needs to be applied to every element with * */
+}
 p {
     color: red;
 }
@@ -6,6 +15,13 @@ p {
 }
 #nameTest {
     color: orange;
+}
+#boxTest {
+    margin: 10px;
+    border: 10px solid black;
+    padding: 10px;
+    width: 500px;
+    
 }
 p.big {
     font-size: 20px;
@@ -16,3 +32,23 @@ article p {
 article > p {
     color:blueviolet;
 }
+#box {
+    background-color: chartreuse;
+    padding: 10px;
+    border: 5px solid black;
+    width: 500px;
+    height: 50px;
+    overflow: auto;
+}
+
+#box2 {
+    margin-top: 10px;
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    background: url("Billede1.png") no-repeat top left blue;
+    /* background-image: url("Billede1.png");
+    background-repeat: no-repeat;
+    background-position: top left; */
+}
+

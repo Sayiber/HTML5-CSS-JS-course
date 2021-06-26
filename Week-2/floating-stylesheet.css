@@ -1,0 +1,31 @@
+div {
+    background: rgb(142, 142, 233);
+}
+* {
+    box-sizing: border-box;
+}
+p {
+    width: 50%;
+    height: 50px;
+    border: 1px solid black;
+    float: left;
+    padding: 10px;
+}
+#p1 {
+    background-color: #a52a2a;
+    float: left;
+}
+#p2 {
+    background-color: #deb887;
+    float: right;
+}
+#p3 {
+    background-color: #5f9ea0;
+    clear: both;
+}
+#p4 {
+    background-color: #FF7F50;
+}
+section {
+    /* clear: left; */
+}
